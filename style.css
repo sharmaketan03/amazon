@@ -143,21 +143,21 @@ header h3{
     background-image: url("img/background-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
+    width:100% !important;
     height:90vh;
-    position:relative;
+    
 }
 .wrapper13{
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    width:90%;
-    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 100%;
     position: absolute;
-    bottom:-210px;
-    /* left:0px; */
-    /* margin:0 2.5rem; */
-    margin-left:4.7rem;
+    bottom: -210px;
+    left: 38px;
+    margin: 0 2.5rem;
+    margin: auto;
 }
 .boxmain{
     margin-bottom:2rem;
@@ -173,7 +173,7 @@ header h3{
 }
  .box1 .fourbox,.box3 .fourbox,.box4 .fourbox{
     display:flex;
-    align-items: center;
+   
 
 }
  .box1 .fourbox .fourbox1{
@@ -188,6 +188,7 @@ header h3{
     width:100%;
     font-size:8px;
 }
+
 .fourbox1img img{
     width:100%;
 }
@@ -195,13 +196,12 @@ header h3{
     margin:0.5rem 0.4rem 0 0;
 }
 .wrapper4{
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    width:90%;
-    height:100%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 100%;
     margin: auto;
-    padding-top:1rem;
+    padding-top: 1rem;
 }
 .wrappercol{
     background-color:#e3e6e6;
@@ -214,7 +214,7 @@ header h3{
 }
 .wrapper6{
    background-color: white;
-   width:90%;
+   width:92%;
    margin: 1rem auto;
    
 }
@@ -241,14 +241,13 @@ header h3{
 
 }
 .wrapper9{
-    width:90%;
-    
-    margin:1rem auto;
-    background-color:white;
-    display:flex;
-    align-items:center;
-    justify-content: space-around;
-    padding:1rem;
+    width: 92%;
+  margin: 1rem auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
 }
 .wrapper9box{
     width: 12%;
@@ -361,3 +360,32 @@ font-size:13px;
 .m{
     margin-bottom: 0.6rem;
 }
+.box11{
+    width:23%;
+    background-color: white;
+    padding:1rem;
+}
+.fourbox5{
+  display:flex;
+ 
+  justify-content: space-evenly;
+  margin-bottom: 0.7rem;;
+}
+.fourbox6{
+    width:45%;
+}
+.m{
+    margin-bottom:1.8rem;
+}
+/* #mrgin{
+    margin-bottom:2rem;
+} */
+ #mrgin{
+    margin-top:1.8rem;
+ }
+ #mrgin1{
+    margin-top:1rem;
+ }
+ .fourbox5 h3{
+    margin-left:1rem;
+ }
